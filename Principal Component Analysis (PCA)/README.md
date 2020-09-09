@@ -28,10 +28,17 @@ We’re going to cover SVD in the next task.
 Recall that PCA aims to find linearly uncorrelated orthogonal axes, which are also known as principal components (PCs) in the m dimensional space to project the data points onto those PCs. The first PC captures the largest variance in the data.
 The PCs can be determined via eigen decomposition of the covariance matrix Σ. After all, the geometrical meaning of eigen decomposition is to find a new coordinate system of the eigenvectors for Σ through rotations.
 
-Covariance: $\sigma_{jk} = \frac{1}{n-1}\sum_{i=1}^{N}(x_{ij}-\bar{x_j})(x_{ik}-\bar{x_k})$
+
+3.) Selecting Principal Components Using the Explained Variance
+
+The use of PCA means that the projected data can be analyzed along axes of principal variation.
+Plot the cumulative explained variance against the number of principal components.
+Rank components according to the explained variance each component contributes to the model.
 
 
-Coviance matrix:  $Σ = \frac{1}{n-1}((X-\bar{x})^T(X-\bar{x}))$
+4.) Project Data Onto Lower-Dimensional Linear Subspace
+
+Utilize principal component analysis to decompose high dimensional data into two or three dimensions so that each instance can be plotted in a scatter plot.
 
 
 
