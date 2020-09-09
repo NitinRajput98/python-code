@@ -4,7 +4,7 @@ In this jupyter notebook, I have implemented Principal Component Analysis with N
 
 # Methodology
 
-1.) Standardize the Data
+**1.) Standardize the Data**
 
 Zero-out the mean from each feature (subtract the mean of each feature from the training set)
 One must take care to preprocess the input data appropriately.
@@ -20,7 +20,7 @@ Z	=	standard score , x	=	observed value , mu	=	mean of the sample , sigma = stan
 
 
 
-2.) Compute the Eigenvectors and Eigenvalues
+**2.) Compute the Eigenvectors and Eigenvalues**
 
 There are two general ways to perform PCA. The more computationally effective way is to do something called Singular Value Decomposition or SVD.
 It decomposes a matrix into the product of two unitary matrices (U, V*) and a rectangular diagonal matrix of singular values (S).
@@ -31,14 +31,14 @@ Recall that PCA aims to find linearly uncorrelated orthogonal axes, which are al
 The PCs can be determined via eigen decomposition of the covariance matrix Σ. After all, the geometrical meaning of eigen decomposition is to find a new coordinate system of the eigenvectors for Σ through rotations.
 
 
-3.) Selecting Principal Components Using the Explained Variance
+**3.) Selecting Principal Components Using the Explained Variance**
 
 The use of PCA means that the projected data can be analyzed along axes of principal variation.
 Plot the cumulative explained variance against the number of principal components.
 Rank components according to the explained variance each component contributes to the model.
 
 
-4.) Project Data Onto Lower-Dimensional Linear Subspace
+**4.) Project Data Onto Lower-Dimensional Linear Subspace**
 
 Utilize principal component analysis to decompose high dimensional data into two or three dimensions so that each instance can be plotted in a scatter plot.
 
