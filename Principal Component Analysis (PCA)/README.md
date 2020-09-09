@@ -15,7 +15,9 @@ If one or more features are in a different scale than the rest, those non-standa
 
 <img src="https://render.githubusercontent.com/render/math?math=Z = \frac{x - \mu}{\sigma}">
 where,
-Z	=	standard score , x	=	observed value , mu	=	mean of the sample , sigma = standard deviation of the sample
+Z	=	standard score , x	=	observed value , mu	=	mean of the sample , sigma = standard deviation of the sample   
+
+
 
 
 2.) Compute the Eigenvectors and Eigenvalues
