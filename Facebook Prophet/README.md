@@ -11,8 +11,12 @@
 **1) Accurate and Fast**
 * Facebook teams use Prophet for accurate forecasting and planning.
 * Prophet can generate results in seconds.
+
+
 **2) Automatic**
 * No need to perform data processing.
 * Prophet works woth missing data with several outliers.
+
+
 **3) Domain Knowledge Integration**
 * Users can tweak forecast by manually adding domain specific knowledge.
